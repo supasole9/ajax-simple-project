@@ -27,7 +27,7 @@ class Handler(BaseHTTPRequestHandler):
             self.send_header("Access-Control-Allow-Origin", "*")
             self.end_headers()
             my_data = {
-                "Samoan": "Ia Fa",
+                "Samoan": "Fa",
                 "Tongan": "Nofo 'alu au'",
                 "Tahitian": "Nana",
                 "Fijian": "Moce",
